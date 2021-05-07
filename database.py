@@ -5,8 +5,8 @@ import os
 
 dbcreditials = {    'host':"192.168.1.236",     # your host, usually localhost
                     'user':"root",          # your username
-                    'passwd':"root",      # your password
-                    'db':"sensors" }
+                    'passwd':"Wenderslover1",      # your password
+                    'db':"home" }
 
 def fetchAsDict( sql, param ):
 	db = MySQLdb.connect( **dbcreditials )
